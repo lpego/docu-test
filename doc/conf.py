@@ -15,18 +15,18 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.doctest",
-    "sphinx.ext.inheritance_diagram",
-    "sphinx_rtd_theme",
-    "sphinx.ext.autosectionlabel", 
-    "sphinx.ext.napoleon", 
-    "nbsphinx",
-]
+# extensions = [
+#     "sphinx.ext.autodoc",
+#     "sphinx.ext.mathjax",
+#     "sphinx.ext.viewcode",
+#     "sphinx.ext.autosummary",
+#     "sphinx.ext.doctest",
+#     "sphinx.ext.inheritance_diagram",
+#     "sphinx_rtd_theme",
+#     "sphinx.ext.autosectionlabel", 
+#     "sphinx.ext.napoleon", 
+#     "nbsphinx",
+# ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
