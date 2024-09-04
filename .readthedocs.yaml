@@ -15,7 +15,7 @@ build:
     # rust: "1.64"
     # golang: "1.19"
   jobs:
-    pre-build:
+    pre_build:
       - echo "Copying notebooks into docs dir..."
       - pwd
       - ls
